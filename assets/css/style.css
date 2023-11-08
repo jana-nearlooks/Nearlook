@@ -2130,8 +2130,13 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    animation: bounce 1s infinite alternate;
-    -webkit-animation: bounce 1s infinite alternate;
+    /* animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate; */
+    /* width: 100%; */
+    transition: 0.5s all ease-in-out;
+}
+.banner-img-part2-two:hover{
+    transform: scale(1.2);
 }
 
 @keyframes bounce {
@@ -11911,6 +11916,10 @@ section.main-my-work-in-two {
 }
 
 @media screen and (max-width: 800px) {
+    .portfolio-box-two .portfolio-content-two {
+        right: 0;
+        transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+    }
     .banner-mob-one img {
         max-width: unset;
         height: 100vh;
@@ -11918,6 +11927,10 @@ section.main-my-work-in-two {
 }
 
 @media screen and (max-width: 767px) {
+    .portfolio-box-two .portfolio-content-two {
+        right: 0;
+        transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+    }
     .banner-content-one {
         padding: 0 50px;
     }
@@ -12061,6 +12074,10 @@ section.main-my-work-in-two {
 }
 
 @media screen and (max-width: 640px) {
+    .portfolio-box-two .portfolio-content-two {
+        right: 0;
+        transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+    }
     .banner-video-content {
         height: 123px;
         padding: 0 60px;
@@ -12068,6 +12085,10 @@ section.main-my-work-in-two {
 }
 
 @media screen and (max-width: 575px) {
+    .portfolio-box-two .portfolio-content-two {
+        right: 0;
+        transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+    }
     .container {
         padding: 0 30px;
     }
@@ -12653,6 +12674,10 @@ section.main-my-work-in-two {
 }
 
 @media screen and (max-width: 474px) {
+    .portfolio-box-two .portfolio-content-two {
+        right: 0;
+        transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+    }
     .h1-title {
         font-size: 50px;
         line-height: 60px;
@@ -12944,6 +12969,10 @@ section.main-my-work-in-two {
 
     .blog-detail-box-two .blog-comment-two {
         margin-left: 0;
+    }
+    .portfolio-box-two .portfolio-content-two {
+        right: 0;
+        transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
     }
 }
 /*==========Responsive CSS End==========*/
