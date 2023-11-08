@@ -2130,14 +2130,14 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    /* animation: bounce 1s infinite alternate;
-    -webkit-animation: bounce 1s infinite alternate; */
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
     /* width: 100%; */
-    transition: 0.5s all ease-in-out;
+    /* transition: 0.5s all ease-in-out; */
 }
-.banner-img-part2-two:hover{
+/* .banner-img-part2-two:hover{
     transform: scale(1.2);
-}
+} */
 
 @keyframes bounce {
 from {
