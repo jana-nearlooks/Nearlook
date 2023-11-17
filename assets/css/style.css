@@ -3082,14 +3082,14 @@ to {
     position: absolute;
     bottom: 30px;
     right: -365px;
-    background-color: #2f047a;
+    background-color: #2f047ad8;
     border-radius: 10px 0 0 10px;
     padding: 40px;
     text-align: left;
     transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
-.portfolio-box-two:hover .portfolio-content-two {
+.portfolio-box-two .portfolio-content-two {
     right: 0;
     transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
