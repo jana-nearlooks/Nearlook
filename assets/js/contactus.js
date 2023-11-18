@@ -1,6 +1,6 @@
 const form = document.getElementById("form");
 const result = document.getElementById("result");
-const file = req.files.file;
+
 
 form.addEventListener("submit", function (e) {
   const formData = new FormData(form);
